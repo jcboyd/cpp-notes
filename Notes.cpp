@@ -683,7 +683,11 @@ void thread_example() {
     an array with special insertion rules.
 
     Then there are general trees and trees with special relations between nodes 
-    like heaps.
+    like heaps. Heaps are trees satisfying the heap property, whereby all 
+    children are ordered with respect to their parents. For example, in a "max" 
+    heap, the keys of children are less than or equal to their parents. For 
+    example, given the numbers {2, 3, 17}, a max heap would place 2 and 3 the 
+    children of 17, with no other ordering possible.
 */
 
 
